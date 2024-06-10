@@ -445,7 +445,7 @@ function Tick()
     1, 0, 0, 0,
     0, 1, 0, 0,
     0, 0, 1, 0,
-    3.5*Math.cos(rotateAngleMercury*Math.PI/180.0), 0, 3.5*Math.sin(rotateAngleMercury*Math.PI/180.0), 1
+    3*Math.cos(rotateAngleMercury*Math.PI/180.0), 0, 3*Math.sin(rotateAngleMercury*Math.PI/180.0), 1
   ];
   uMVMatrix2 = MatrixMul(uMVMatrix2, translateMatrixMercury);
 
@@ -461,7 +461,7 @@ function Tick()
     1, 0, 0, 0,
     0, 1, 0, 0,
     0, 0, 1, 0,
-    5.5*Math.cos(rotateAngleEarth*Math.PI/180.0), 0, 5.5*Math.sin(rotateAngleEarth*Math.PI/180.0), 1
+    5*Math.cos(rotateAngleEarth*Math.PI/180.0), 0, 5*Math.sin(rotateAngleEarth*Math.PI/180.0), 1
   ];
   uMVMatrix4 = MatrixMul(uMVMatrix4, translateMatrixEarth);
 
@@ -477,7 +477,7 @@ function Tick()
     1, 0, 0, 0,
     0, 1, 0, 0,
     0, 0, 1, 0,
-    7.5*Math.cos(rotateAngleJupiter*Math.PI/180.0), 0, 7.5*Math.sin(rotateAngleJupiter*Math.PI/180.0), 1
+    7*Math.cos(rotateAngleJupiter*Math.PI/180.0), 0, 7*Math.sin(rotateAngleJupiter*Math.PI/180.0), 1
   ];
   uMVMatrix6 = MatrixMul(uMVMatrix6, translateMatrixJupiter);
 
@@ -493,7 +493,7 @@ function Tick()
     1, 0, 0, 0,
     0, 1, 0, 0,
     0, 0, 1, 0,
-    9.5*Math.cos(rotateAngleUranus*Math.PI/180.0), 0, 9.5*Math.sin(rotateAngleUranus*Math.PI/180.0), 1
+    9*Math.cos(rotateAngleUranus*Math.PI/180.0), 0, 9*Math.sin(rotateAngleUranus*Math.PI/180.0), 1
   ];
   uMVMatrix8 = MatrixMul(uMVMatrix8, translateMatrixUranus);
 
@@ -501,7 +501,7 @@ function Tick()
     1, 0, 0, 0,
     0, 1, 0, 0,
     0, 0, 1, 0,
-    11.0*Math.cos(rotateAngleNeptune*Math.PI/180.0), 0, 11.0*Math.sin(rotateAngleNeptune*Math.PI/180.0), 1
+    10.0*Math.cos(rotateAngleNeptune*Math.PI/180.0), 0, 10.0*Math.sin(rotateAngleNeptune*Math.PI/180.0), 1
   ];
   uMVMatrix9 = MatrixMul(uMVMatrix9, translateMatrixNeptune);
 
